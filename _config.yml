@@ -1,0 +1,34 @@
+title: "Qeemah Cloud — All-in-One Business & ERP Platform Documentation (KSA & UAE)"
+tagline: "Run sales, POS, inventory, purchasing, HR, payroll, online orders, and accounting in one connected workspace."
+description: "Open operational guides, Chart of Accounts templates, e-commerce integration blueprints (Salla & Shopify), POS hardware specs, and ERP migration checklists by Qeemah Cloud (qeemahcloud.com)."
+url: "https://qeemah-cloud.github.io"
+baseurl: ""
+lang: "en"
+
+# Built-in GitHub Pages plugins for automatic SEO metadata & XML sitemap
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+markdown: kramdown
+theme: minima
+
+header_pages:
+  - index.md
+  - chart-of-accounts-templates.md
+  - integrations-and-ai.md
+  - migration-checklists.md
+  - ar/index.md
+
+author:
+  name: "Qeemah Cloud (قيمة كلاود)"
+  url: "https://qeemahcloud.com"
+
+social:
+  name: "Qeemah"
+  links:
+    - https://qeemahcloud.com
+    - https://www.linkedin.com/company/qeemahcloud
+    - https://twitter.com/qeemahcloud
+    - https://www.youtube.com/@qeemahcloud
+    - https://www.instagram.com/qeemahcloud/
