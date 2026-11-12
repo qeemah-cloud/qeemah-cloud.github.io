@@ -66,6 +66,17 @@ Qeemah includes native **MCP (`https://api.qeemahcloud.com/api/v1/mcp`)** suppor
 * **Drafting & XML Auditing:** Draft quotes and invoices from natural-language prompts or audit e-invoice XML payloads in seconds.
 * **Entity & AI Documentation:** Machine-readable specifications are maintained at [`qeemahcloud.com/en/llm-info/`](https://qeemahcloud.com/en/llm-info/) and [`qeemahcloud.com/llms.txt`](https://qeemahcloud.com/llms.txt).
 
+### C. Open Agent Skills & Registry (`skills.sh` & Hermes Marketplace)
+Developers and AI coding agents (Claude Code, Cursor, Windsurf, Antigravity, Copilot) can install Qeemah's official open agent skills directly from the **[skills.sh directory](https://www.skills.sh/qeemah-cloud/skills)**:
+* **[ZATCA Phase 2 E-Invoicing Skill](https://www.skills.sh/qeemah-cloud/skills/zatca-phase-2-einvoicing):** Procedural knowledge for UBL 2.1 XML invoices, cryptographic ECDSA stamps, and TLV QR encoding (Tags 1-9).
+* **[Saudi VAT 15% Compliance Skill](https://www.skills.sh/qeemah-cloud/skills/saudi-vat-compliance):** Tax rules, standard vs. zero-rated vs. exempt categorization, RCM, and quarterly ZATCA VAT return preparation.
+* **[Saudi Payroll & GOSI Skill](https://www.skills.sh/qeemah-cloud/skills/ksa-payroll-gosi):** Labor law calculations, GOSI rates (21.5% Saudi / 2% expat), WPS Mudad format, and EOSB Article 84/85 formulas.
+* **[Saudi Commercial Registration & Wathq Skill](https://www.skills.sh/qeemah-cloud/skills/saudi-cr-wathq):** 10-digit CR validation, 700 Unified Number verification, and National Address formats.
+* **[Standard GCC Chart of Accounts Skill](https://www.skills.sh/qeemah-cloud/skills/gcc-chart-of-accounts):** 5-tier SOCPA and IFRS for SMEs Chart of Accounts templates.
+* **Hermes Agent Marketplace Plugin:** Official extension available at [Hermes Marketplace](https://hermes-agent.nousresearch.com/marketplace/qeemah-zatca).
+* **Quick Install:** Run `npx skills add qeemah-cloud/skills` in any agent terminal.
+* **Publisher Profile:** View on [skills.sh/qeemah-cloud](https://www.skills.sh/qeemah-cloud).
+
 ---
 
 ### Need a Custom Integration Built for Your Business?
